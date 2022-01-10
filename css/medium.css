@@ -5,8 +5,8 @@
     }
 
     .me-img {
-        float: right;
-        margin-top: 1em;
+        float: left;
+        margin-top: -3em;
     }
 
 } 
