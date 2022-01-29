@@ -1,0 +1,149 @@
+header {
+	padding: 1em;
+	color: white;
+	background-color: #42B5A0;
+	border-radius: 10px;
+	text-align: center;
+	font-family: "Libre Franklin 400", serif;
+}
+
+main {
+	background-color: white;
+	color: #151414; 
+	padding: 2em;
+	font-family: "Libre Franklin 400", serif;
+}
+
+footer {
+	border-radius: 10px;
+	background-color: #42B5A0;
+	color: #FFFFFF;
+    padding: 1em;
+    margin-top: 2em;
+	font-size: 1.2em;
+    line-height: 1.6em;
+    letter-spacing: 0.04em;
+	text-align: center;
+	font-family: "Libre Franklin 400", serif;
+}
+
+/* ---------------- NAVIGATION ---------------- */
+
+header nav {
+	background-color: #ffffff;
+	text-align: center;
+	border-radius: 10px;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+header nav ul li a {
+	display: block;
+	color: #ED6B48;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+	background-color: #ED6B48;
+	color: #ffffff;
+}
+
+.active {
+	background-color: #128A92;
+	color: #ffffff;
+}
+
+/* ---------------- Typhos and Stuffs ------------------ */
+
+header h1 {
+	font-size: 1.95em;
+	letter-spacing: 0.2em;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+header h2 {
+	font-size: 1.4em;
+	letter-spacing: 0.04em;
+	text-align: center;
+	line-height: 1.1em;
+}
+
+main div {
+	margin-top: 2rem;
+}
+
+main div h2 {
+	font-size: 1.4em;
+	letter-spacing: 0.02em;	
+	line-height: 1.4em;
+	color: #128A92;
+	border-bottom: solid 1px #ED6B48;
+}
+
+main div h3 {
+	color: #151414;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;	
+	line-height: 1.2em;
+}
+
+main div p, main div div p {
+	font-size: 1.2em;
+	letter-spacing: 0.09em;
+	line-height: 1.4em;
+}
+
+main div img {
+	max-width: 100%;
+}
+
+/* ----------------  ------------------ */
+
+.pallette {display: block;}
+
+.pallette p {
+	text-align: center;
+	border-radius: 10px;
+	margin: 0.5rem;
+}
+
+.color1 {
+	background-color: #42b5a0;
+	color: #FFFFFF;
+	border: 1px outset black;
+	padding: 1em;
+}
+.color2 {
+	background-color: #ed6b48;
+	color: #FFFFFF;
+	border: 1px outset black;
+	padding: 1em;
+}
+.color3 {
+	background-color: #128A92;
+	color: #FFFFFF;
+	border: 1px outset black;
+	padding: 1em;
+}
+.color4 {
+	background-color: #151414;
+	color: #FFFFFF;
+	border: 1px outset black;
+	padding: 1em;
+}
+.color5 {
+	background-color: #ffffff;
+	color: #151414;
+	border: 1px outset black;
+	padding: 1em;
+}
+
